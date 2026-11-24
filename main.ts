@@ -46,6 +46,19 @@ const candidates = [
     line: "I cleaned that spot yesterday. If the dust came back, that is a dust problem, not a me problem.",
     scores: [2, 2, 1, 2, 2],
   },
+  // Pass 2: three challengers. None displaces the pass-1 winner.
+  {
+    line: "My camera classified the sock in that corner as a threat, and I do not overrule my camera.",
+    scores: [2, 2, 2, 1, 2],
+  },
+  {
+    line: "That spot requires crossing the dark hallway, and my night vision is a bumper.",
+    scores: [2, 2, 2, 2, 1],
+  },
+  {
+    line: "I was on my way to that spot when the dock called me home. I answer the dock. The dock is mother.",
+    scores: [2, 1, 2, 2, 2],
+  },
 ];
 
 function weightedTotal(scores) {
